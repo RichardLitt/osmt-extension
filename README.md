@@ -7,15 +7,19 @@ already talking to. Optionally, you can include the list of friends
 online, by hiding the Facebook chat bar (clicking in the lower right
 corner.) Or you can comment out the code, if you're keen on js.  
 
+I did this as an experiment, before I knew JS, so it's not perfect. Could be done a lot better in jQuery, most likely. There's some weird issue I haven't solved yet with the cover - if you've got a solution that is pure javascript, let me know. This is why there are multiple folders.
+
 Installation instructions
 -------------------------
 
 To install: 
 
- * Download drought.zip. I have a 13" Macbook - 1220x800. You might have a 15" - get the 1440x900 version, in that case.  
- * Unpack it.  
- * Go to chrome://extensions in the browser, and click "Load unpacked extensions...".   
- * Enable or disable as desired.  
+ * Download the appropriate drought folder, or just fork the whole repo. 
+ * Go to chrome://extensions in the browser, and click "Load unpacked extensions...". 
+ * Load the folder in.
+ * Enable or disable as desired, when desired. This makes it harder than a simple button would.
  * Go to Facebook. 
  * Press refresh.  
  * Enjoy.  
+
+
