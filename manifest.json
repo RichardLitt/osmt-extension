@@ -9,8 +9,11 @@
   "content_scripts": [
     {
       "matches": ["https://*.facebook.com/*"],
-      "js": ["drought.js"],
+      "js": ["build.js"],
       "run_at": "document_end"
     }
+  ],
+  "web_accessible_resources": [
+    "images/*"
   ]
 }

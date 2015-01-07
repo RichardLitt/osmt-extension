@@ -2,17 +2,11 @@ Drought.js
 ============
 
 This is a Chrome extension to get rid of the distracting bits of
-Facebook, while still allowing you to talk to the few friends you were
-already talking to. Optionally, you can include the list of friends
-online, by hiding the Facebook chat bar (clicking in the lower right
-corner.) Or you can comment out the code, if you're keen on js.  
+Facebook (aka - all of it), while still allowing you to talk to the few friends you were already talking to. 
 
-I did this as an experiment, before I knew JS, so it's not perfect. Could be done a lot better in jQuery, most likely. There's some weird issue I haven't solved yet with the cover - if you've got a solution that is pure javascript, let me know. 
+Optionally, you can include the list of friends online, by hiding the Facebook chat bar (clicking in the lower right corner.) 
 
-Installation instructions
--------------------------
-
-To install: 
+##Installation
 
  * Download or fork the whole repo. 
  * Go to chrome://extensions in the browser, and click "Load unpacked extensions...". 
@@ -21,3 +15,15 @@ To install:
  * Go to Facebook. 
  * Press refresh.  
  * Enjoy.  
+
+You can change the picture by adding any image you want to `images`, and referencing the URL at the top of `drought.js`.
+
+##Development
+
+`npm install fs brfs`
+
+On editing the index.js file, run: 
+
+`browserify -t brfs drought.js > build.js`
+
+
