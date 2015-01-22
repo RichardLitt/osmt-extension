@@ -11,5 +11,13 @@
       "js": ["build.js"],
       "run_at": "document_end"
     }
+  ],
+  "icons": {
+    "16": "images/icon.png",
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "web_accessible_resources": [
+    "images/*.png"
   ]
 }
