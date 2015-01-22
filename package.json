@@ -1,6 +1,6 @@
 {
   "name": "Open Source Metatags",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Parse os metatags in your browser",
   "main": "osmt.js",
   "dependencies": {
