@@ -1,5 +1,5 @@
-Drought.js
-============
+Open Source Metatags Extension 
+==============================
 
 This is a Chrome extension to check for OSMT compliant websites. If a site has the correct `os` tags, it will log them. 
 
