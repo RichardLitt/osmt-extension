@@ -1,29 +1,21 @@
 Drought.js
 ============
 
-This is a Chrome extension to get rid of the distracting bits of
-Facebook (aka - all of it), while still allowing you to talk to the few friends you were already talking to. 
+This is a Chrome extension to check for OSMT compliant websites. If a site has the correct `os` tags, it will log them. 
 
-Optionally, you can include the list of friends online, by hiding the Facebook chat bar (clicking in the lower right corner.) 
+Eventually a way of automatically going to a site would be ideal. 
 
 ##Installation
 
  * Download or fork the whole repo. 
  * Go to chrome://extensions in the browser, and click "Load unpacked extensions...". 
  * Load the folder in.
- * Enable or disable as desired, when desired. This makes it harder than a simple button would.
- * Go to Facebook. 
- * Press refresh.  
- * Enjoy.  
 
-You can change the picture by adding any image you want to `images`, and referencing the URL at the top of `drought.js`.
 
 ##Development
 
-`npm install fs brfs`
-
-On editing the index.js file, run: 
-
-`browserify -t brfs drought.js > build.js`
+Install: `npm install`  
+Build: `npm build`  
+Watch: `npm watch`  
 
 

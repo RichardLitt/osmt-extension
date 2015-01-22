@@ -1,19 +1,15 @@
 {
-  "name": "Drought",
+  "name": "Open Source Metatags",
   "version": "1.0",
   "manifest_version": 2,
-  "background": "background.html",
   "permissions": [
-    "tabs", "https://*.facebook.com/*"
+    "tabs"
   ],
   "content_scripts": [
     {
-      "matches": ["https://*.facebook.com/*"],
+      "matches": ["<all_urls>"],
       "js": ["build.js"],
       "run_at": "document_end"
     }
-  ],
-  "web_accessible_resources": [
-    "images/*"
   ]
 }
