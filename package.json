@@ -4,8 +4,8 @@
   "description": "Parse os metatags in your browser",
   "main": "osmt.js",
   "dependencies": {
-    "lodash": "^2.4.1",
-    "protocol-parser": "0.0.2"
+    "lodash": "^4.17.4",
+    "protocol-parser": "0.0.7"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
