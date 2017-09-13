@@ -1,6 +1,8 @@
 Open Source Metatags Extension 
 ==============================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/RichardLitt/osmt-extension.svg)](https://greenkeeper.io/)
+
 This is a Chrome extension to check for OSMT compliant websites. If a site has the correct `os` tags, it will log them. 
 
 Eventually a way of automatically going to a site would be ideal. 
